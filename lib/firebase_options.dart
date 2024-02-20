@@ -37,28 +37,28 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAA5S2BQ4tmFsquY0qJjJZSeDA5HszkqlU',
-    appId: '1:512681659274:web:96033012310f45bc215673',
-    messagingSenderId: '512681659274',
-    projectId: 'login-auth-bloc',
-    authDomain: 'login-auth-bloc.firebaseapp.com',
-    storageBucket: 'login-auth-bloc.appspot.com',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    authDomain: '',
+    storageBucket: '',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBO3utNJgzHN3jGxZMpgczERQ4iWt0-d-I',
-    appId: '1:512681659274:android:28b346008f024a1e215673',
-    messagingSenderId: '512681659274',
-    projectId: 'login-auth-bloc',
-    storageBucket: 'login-auth-bloc.appspot.com',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCTkY-TU4gnPvdULPwzB99AKAD33ymdUJU',
-    appId: '1:512681659274:ios:044374dd017c90e6215673',
-    messagingSenderId: '512681659274',
-    projectId: 'login-auth-bloc',
-    storageBucket: 'login-auth-bloc.appspot.com',
-    iosBundleId: 'com.example.loginAuthBloc',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
+    iosBundleId: '',
   );
 }
