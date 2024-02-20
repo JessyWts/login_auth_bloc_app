@@ -1,0 +1,29 @@
+name: user_repository
+description: Dart package wich manage the user.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  equatable: ^2.0.5
+
+  # Firebase
+  firebase_auth: ^4.15.0
+  cloud_firestore: ^4.13.5
+
+  # Toast message
+  fluttertoast: ^8.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
